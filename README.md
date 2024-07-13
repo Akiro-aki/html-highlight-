@@ -1,4 +1,3 @@
 # html-highlight-
-this is a `python` script highlights similar sentences in a siries of input text files using `html` and output them in an another  `html` file 
-this script finds similar sentences using  `TfidfVectorizer`  libraiy that workes by means of *Term Frequency* (no. of repitions od a word in a sentence / no of words in the sentence  ) and *Inverse Document Frequency* ( log (no. of sentences/no. of sentences contaning the word ) ) matrix  of each sentences 
-and coloing the highlights using the  `matplotlib.cm.colormap` 
+This is a python script that highlights similar sentences in a series of input text files using `html` and outputs them in another `html` file. This script finds similar sentences using the `TfidfVectorizer` library, which works by means of *Term Frequency* (number of repetitions of a word in a sentence / number of words in the sentence) and *Inverse Document Frequency* (log (number of sentences / number of sentences containing the word)) matrix of each sentence, 
+and colors the highlights using the `matplotlib.cm.colormap.`
